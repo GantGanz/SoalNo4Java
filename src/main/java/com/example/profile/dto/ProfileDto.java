@@ -6,7 +6,7 @@ public class ProfileDto {
 	private Long id;
 	private String firstName;
 	private String lastName;
-	private Double address;
+	private String address;
 	private Date birthday;
 	private String email;
 	private String city;
@@ -36,11 +36,11 @@ public class ProfileDto {
 		this.lastName = lastName;
 	}
 
-	public Double getAddress() {
+	public String getAddress() {
 		return address;
 	}
 
-	public void setAddress(Double address) {
+	public void setAddress(String address) {
 		this.address = address;
 	}
 
@@ -73,6 +73,6 @@ public class ProfileDto {
 	}
 
 	public void setCountry(String country) {
-		this.country = country;
+		this.country = country; 
 	}
 }

@@ -21,7 +21,7 @@ public class Profile {
 	@Column(name = "LAST_NAME", length = 50)
 	private String lastName;
 	@Column(name = "ADDRESS")
-	private Double address;
+	private String address;
 	@Column(name = "BIRTHDAY")
 	private Date birthday;
 	@Column(name = "EMAIL", length = 100)
@@ -55,11 +55,11 @@ public class Profile {
 		this.lastName = lastName;
 	}
 
-	public Double getAddress() {
+	public String getAddress() {
 		return address;
 	}
 
-	public void setAddress(Double address) {
+	public void setAddress(String address) {
 		this.address = address;
 	}
 
