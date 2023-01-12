@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.example.profile.model.Profile;
 
+@Repository
 public class ProfileDao extends BaseDao{
 	
 	public List<Profile> getAll() {
